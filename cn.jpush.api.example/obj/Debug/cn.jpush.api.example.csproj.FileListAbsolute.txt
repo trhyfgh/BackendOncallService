@@ -1,0 +1,10 @@
+C:\Users\trhyfgh\Documents\jpush-api-csharp-client-3.0.2\jpush-api-csharp-client-3.0.2\cn.jpush.api.example\bin\Debug\jpush-example.exe.config
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api.example\bin\Debug\jpush-example.exe.config
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api.example\bin\Debug\jpush-example.exe
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api.example\bin\Debug\jpush-example.pdb
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api.example\bin\Debug\jpush-api.dll
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api.example\bin\Debug\Newtonsoft.Json.dll
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api.example\bin\Debug\jpush-api.pdb
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api.example\obj\Debug\cn.jpush.api.example.csprojResolveAssemblyReference.cache
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api.example\obj\Debug\jpush-example.exe
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api.example\obj\Debug\jpush-example.pdb

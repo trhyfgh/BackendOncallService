@@ -1,0 +1,6 @@
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api\bin\Debug\jpush-api.dll
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api\bin\Debug\jpush-api.pdb
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api\bin\Debug\Newtonsoft.Json.dll
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api\obj\Debug\cn.jpush.api.csprojResolveAssemblyReference.cache
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api\obj\Debug\jpush-api.dll
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\cn.jpush.api\obj\Debug\jpush-api.pdb

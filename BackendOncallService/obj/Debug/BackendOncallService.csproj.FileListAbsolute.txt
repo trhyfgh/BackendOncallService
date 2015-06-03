@@ -60,3 +60,4 @@ C:\Users\trhyfgh\Documents\Project\BackendOncallService\BackendOncallService\bin
 C:\Users\trhyfgh\Documents\Project\BackendOncallService\BackendOncallService\bin\System.Web.Http.Owin.xml
 C:\Users\trhyfgh\Documents\Project\BackendOncallService\BackendOncallService\obj\Debug\BackendOncallService.dll
 C:\Users\trhyfgh\Documents\Project\BackendOncallService\BackendOncallService\obj\Debug\BackendOncallService.pdb
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\BackendOncallService\obj\Debug\BackendOncallService.csprojResolveAssemblyReference.cache
