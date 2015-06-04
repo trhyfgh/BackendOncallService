@@ -1,0 +1,15 @@
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\OncallPushService.exe.config
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\OncallPushService.exe
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\OncallPushService.pdb
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\Common.Logging.Core.dll
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\Common.Logging.dll
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\Quartz.dll
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\Common.Logging.pdb
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\Common.Logging.xml
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\Common.Logging.Core.pdb
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\Common.Logging.Core.xml
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\Quartz.pdb
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\bin\Debug\Quartz.xml
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\obj\Debug\OncallPushService.csprojResolveAssemblyReference.cache
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\obj\Debug\OncallPushService.exe
+C:\Users\trhyfgh\Documents\Project\BackendOncallService\OncallPushService\obj\Debug\OncallPushService.pdb
