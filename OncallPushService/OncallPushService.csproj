@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DoPush.cs" />
+    <Compile Include="OncallCellDTO.cs" />
     <Compile Include="ScheduleManage.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -88,7 +89,9 @@
     <None Include="quartz.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="quartz_jobs.xml" />
+    <Content Include="quartz_jobs.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BackendOncallService\BackendOncallService.csproj">

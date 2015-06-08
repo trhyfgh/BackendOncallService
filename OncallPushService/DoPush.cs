@@ -11,6 +11,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net.Http.Formatting;
 using Newtonsoft.Json;
+using System.IO;
 
 
 using cn.jpush.api;
@@ -77,14 +78,21 @@ namespace OncallPushService
         {
             DateTime now = new DateTime();
             string seq = now.ToString().Substring(9, 2);
-            OncallCellsController oc = new OncallCellsController();
+           // OncallCellsController oc = new OncallCellsController();
             var url = "/api/OncallCells/5";
+            var todaySupporter = " ";
             
             //HttpWebRequest 
             HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url);
             request.Method = "GET";
-            request.ContentType = "application/json";
+            request.ContentType = "application/json"; //"text/html;charset =UTF-8"
             HttpWebResponse response = (HttpWebResponse)request.GetResponse(); 
+            Stream oncallRsp = response.GetResponseStream();
+            StreamReader oncallRspReader = new StreamReader(oncallRsp, System.Text.Encoding.UTF8);
+            string oncallString = oncallRspReader.ReadToEnd();
+            oncallRspReader.Close();
+            oncallRsp.Close();
+            
            
             //httpClient
             HttpClient httpClient = new HttpClient();
@@ -98,8 +106,14 @@ namespace OncallPushService
 
             var rsp =  httpClient.GetAsync(url);
             //HttpResponseMessag> responses =  httpClient.GetAsync(url);
+            var oncallResponse = rsp.Result.Content.ReadAsStringAsync().Result;
+            var oncallCells = JsonConvert.DeserializeObject<IList<OncallCellDTO>>(oncallResponse);
             
-            return null;
+            foreach (var oncallcell in oncallCells)
+            {
+                todaySupporter = oncallcell.OncallName;
+            }
+            return todaySupporter;
         }
             
         public static PushPayload PushObject_All_All_Alert()

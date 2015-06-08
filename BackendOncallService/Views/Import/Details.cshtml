@@ -1,0 +1,42 @@
+﻿@model BackendOncallService.Models.OncallCell
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OncallCell</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OncallName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OncallName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OncallShift)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OncallShift)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OncallDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OncallDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
