@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -7,6 +8,8 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using BackendOncallService.Models;
+using System.Data.OleDb;
+
 
 namespace BackendOncallService.Controllers
 {
@@ -54,7 +57,7 @@ namespace BackendOncallService.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
+            
             return View(oncallCell);
         }
 
@@ -124,5 +127,36 @@ namespace BackendOncallService.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public void GetOncallFile(string path)
+        {
+            string filePath = path;
+        }
+
+        public ArrayList FetchOncallFile(string path){
+
+            ArrayList al = new ArrayList();
+            string strConn = "Provider=Microsoft.Jet.OLEDB.4.0;Data source="+path+";Extended Properties=Excel15.0;";
+            OleDbConnection conn = new OleDbConnection(strConn);
+            conn.Open();
+           
+            DataTable oncallTable = conn.GetOleDbSchemaTable(OleDbSchemaGuid.Tables,new object[]{null,null,null,"TABLE"});
+            conn.Close();
+            foreach(DataRow oncallItem in oncallTable.Rows)
+            {
+                al.Add(dr[2])
+            }
+
+            String strExcel = "";
+            OleDbDataAdapter eAdapter = null;
+            DataSet ds =new DataSet();
+            
+            strExcel = "Select * from [oncalllist$]";
+            eAdapter = new OleDbDataAdapter(strExcel, strConn);
+            eAdapter.Fill(ds, "table1");
+            
+
+        }
+        
     }
 }
